@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header start */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px 1px rgba(214, 210, 210, 0.297);
+    margin: auto 180px;
+}
+.left{
+    display: flex;
+    align-items: center;
+  
+}
+.left p{
+    font-size: 12px;
+    padding: 10px 10px;
+    color: grey;
+    box-shadow: 0px 0px 1px 1px rgba(214, 210, 210, 0.297);
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right a{
+    font-size: 12px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.582);
+    box-shadow: 0px 0px 1px 1px rgba(214, 210, 210, 0.273);
+}
+.right a:hover {
+    background-color: red;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 180px;
+    padding: 10px 0px;
+}
+.nav h1{
+    color: red;
+    font-size: 40px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+   list-style-type: none;
+}
+.nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(80, 76, 76);
+    padding: 0px 16px;
+}
+ul li a.action{
+    background-color: red;
+    color: white;
+    padding: 29px 15px;
+    
+}
+ ul li a.home1:hover{
+    background-color: red;
+    border: 1px solid;
+    color: white;
+    padding: 29px 15px;
+}
+header .nav i{
+    display: none;
+}
+/* header end */
+
+/* section 1 :start */
+.tophead{
+    background-image: url(../img/banner.jpg);
+    margin-top: 70px;
+}
+.tophead h1{
+    padding: 45px 0px;
+    margin: 0px 180px;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+}
+/* section 1 end */
+
+/* section 2 start */
+.section2{
+    
+    margin: 100px auto;
+    
+}
+.aboutleft img{
+    width: 460px;
+    height: 560px;
+}
+.aboutleft{
+    position: relative;
+}
+.aboutleftin{
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    padding: 10px;
+    background-color: white;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+.aboutleftin span{
+    font-size: 17px;
+}
+.aboutright{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin: auto 180px;
+}
+.aboutrightin h3{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.aboutrightin i{
+    color: rgb(71, 70, 70);
+}
+.aboutrightin ul li{
+    padding: 3px 0px;
+    list-style-type: none;
+}
+.aboutrightin ul li span{
+    padding: 0px 5px;
+}
+/* section 2 end */
+
+/* section 3 start */
+.section3{
+    background: #f9f9f9;
+}
+.mainsection{
+    margin: 100px 180px;
+    padding: 100px 0px;
+    display: flex;
+}
+.section3left{
+    width: 50%;
+}
+.sectioncontent p{
+    padding-bottom: 10px;
+    color: #444;
+    font-size: 15px;
+    font-weight: 500;
+}
+.skills1{
+    margin-top: 40px;
+    position: relative;
+}
+.skills1 p{
+    font-size: 15px;
+    font-weight: 500;
+    color:#444;
+}
+.skills1 span{
+    position: absolute;
+    left: -55px;
+    top: 23px;
+    padding: 0px 14px;
+    font-size: 14px;
+    background-color: #ACB2B8;
+    color: white;
+}
+.skills1 .span1{
+    font-size: 14px;
+    padding: 0px 12px;
+}
+.sectionright{
+    width: 50%;
+}
+.rightbox1{
+    /* margin-bottom: -100px; */
+    margin-bottom: 10px;
+}
+.rightbox{
+    border: 1px solid black;
+    padding: 7px 30px;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightbox h4 a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 200;
+}
+.rightbox a i{
+    color: #5BB12F; 
+    font-size: 25px;
+}
+.bottombox{
+    margin: 20px 40px;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+.section4{
+    background-image: url(../img/call-to.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 70px auto;   
+    margin-top: -100px;
+}
+.center{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 22px;
+    line-height: 35px;
+}
+/* section 4 end */
+
+/* section 5 start */
+.teamhead{
+    text-align: center;
+}
+.teamhead h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.mainteam{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 80px 180px;
+    overflow: hidden;
+}
+.team1{
+    position: relative;
+  }
+.details{
+    text-align: center;
+    width: 270px;
+    height:270px;
+    background-color: rgba(255, 67, 46, 0.8);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.details:hover{
+    opacity: 1;   
+}
+.details .detailscontent{
+    transition: all 0.5s;
+    transform: translateY(80px);
+    opacity: 0;
+}
+.team1:hover .details .detailscontent{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.details h1{
+    padding-top: 22px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.details ul{
+    display: flex;
+    justify-content:center;
+    padding-top: 90px;
+    margin: auto 60px;
+}
+
+.details ul li{
+    list-style-type: none;
+    padding: 10px 5px;
+}
+.details ul li a{
+    color: black;
+    padding: 5px 9px;
+    background-color: white;
+}
+.details ul li a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.details .icon{
+    transform: translateY(100px);
+}
+.team1:hover .icon1{
+    transition: all 0.5s;
+    transform: translateY(0);
+}
+.team1:hover .icon2{
+    transition: all 0.7s;
+    transform: translateY(0);
+
+}
+.team1:hover .icon3{
+    transition: all 0.9s;
+    transform: translateY(0);
+
+}
+.team1:hover .icon4{
+    transition: all 1.2s;
+    transform: translateY(0);
+
+}
+.team1:hover .icon5{
+    transition: all 1.4s;
+    transform: translateY(0);
+
+}
+
+/* section 5 end */
+
+/* section 6 start */
+.section6{
+    border-top: 1px solid #f1f1f1;
+}
+.mainclient{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px 180px;
+    overflow: hidden;
+}
+.client img{
+    border: 1px solid #ccc;
+    padding: 25px 29px;
+    width: 170px;
+}
+/* section 6 end */
+
+/* footer start */
+footer{
+    border: 1px solid black;
+    background-color: #222222;
+
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto 100px;
+}
+.foot h4{
+    margin-top: 50px;
+    color: rgb(190, 183, 183);
+}
+.foot p{
+    margin-top: 15px;
+    color: rgba(133, 132, 132, 0.92);
+}
+.foot1{
+    width: 230px;
+    height: 200px;
+    font-size: 14px;
+}
+.foot1 span:hover{
+    color: red;
+}
+ .color :hover{
+    color: red;
+}
+.foot2{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.footleft i{
+    font-size: 30px;
+}
+.footright{
+    padding-left: 10px;
+}
+.footright span{
+    color: red;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.footleft i{
+    font-size: 35px;
+}
+.foot3{
+    width: 230px;
+    height: 200px;
+    font-size: 14px;
+}
+.foot3 input{
+    width: 230px;
+    height: 25px;
+    border: none;
+}
+.foot3 button{
+    margin-top: 3px;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.foot3 button:hover{
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+.foot4{
+    width: 230px;
+    height: 200px;
+}
+.foot4 .top1 img{
+    width: 50px;
+    margin-top: 15px;
+}
+.foot4 .top2 img{
+    width: 50px;
+}
+.mainbottom{
+    background: #1d1d1d;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: auto 180px;
+}
+.botleft p{
+    color: rgba(133, 132, 132, 0.92);
+    padding: 20px 0px;
+    font-size: 12px;
+}
+.botleft a{
+    text-decoration: none;
+    color: rgba(133, 132, 132, 0.92);
+}
+.botleft a:hover{
+    color: red;
+}
+.botright ul{
+    display: flex;
+}
+.botright ul li{
+    list-style-type: none;
+}
+.botright ul li a{
+    text-decoration: none;
+    color: rgba(133, 132, 132, 0.92);
+    padding: 20px 5px;
+    font-size: 10px;
+}
+.botright ul li .home{
+    color: white;
+}
+.botright .home:hover{
+    color: red;
+}
+.botright a:hover{
+    color: red;
+}
+/* footer end */
+
+
+@media screen and (min-width:0px) and (max-width:425px) {
+    .navbar{
+        display:none;
+        margin: 0px 0px;      
+    }
+    
+    .nav{
+        margin: 0px 0px;
+    }
+    header .nav i{
+        display:block;
+        padding-right: 20px;
+        font-size: 20px;
+        
+    }
+    .nav ul{
+        display: none;
+    }
+    .tophead h1{
+        margin: 0px 0px;
+    }
+    .about{
+        margin: 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutleft img{
+        width: 300px;
+        height: 400px;
+    }
+    .aboutright{
+        padding: 0px 5px;
+        padding-right: 30px;
+    }
+    .mainsection{
+        margin: 100px 0px;
+        flex-direction: column;
+    }
+    .skills{
+        margin-left: 70px;
+    }
+    .section3left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sectioncontent p{
+        padding: 0px 10px;
+    }
+    .sectionright{
+        width: 100%;
+    }
+    .center{
+        padding: 0px 30px;
+    }
+    .mainteam{
+        flex-direction: column;
+        margin: 0px 0px;
+        align-items: center;
+    }
+    .mainclient{
+        margin: 90px 0px;
+    }
+    .client img{
+        padding: 25px 0px;
+        width: 50px;
+    }
+    .mainfooter{
+        margin: 0px 0px;flex-direction: column;
+        align-items: center;
+    }   
+    .bottom{
+        margin: 0px 0px;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+}
